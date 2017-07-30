@@ -1,0 +1,28 @@
+{
+  "name": "levi-realtime",
+  "version": "1.0.0",
+  "description": "Handles realtime updates for Levi",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneRich5/levi-realtime.git"
+  },
+  "keywords": [
+    "sockets",
+    "redis",
+    "levi"
+  ],
+  "author": "Shane Richards <shane.richards121@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaneRich5/levi-realtime/issues"
+  },
+  "homepage": "https://github.com/ShaneRich5/levi-realtime#readme",
+  "dependencies": {
+    "ioredis": "^3.1.2",
+    "socket.io": "^2.0.3"
+  }
+}
